@@ -72,7 +72,9 @@ Ayarlar `~/.config/sesbutonu/ayarlar.json` dosyasında saklanır.
 | Ses çıkmıyor | `sudo apt install mpv` |
 | Tuş atarken hiçbir şey olmuyor | Üstteki `input` grubu adımını yaptığından emin ol |
 ---
+
 <img width="679" height="527" alt="test" src="https://github.com/user-attachments/assets/1e770d75-05cb-4a7a-abf9-22ff4782166e" />
+
 ---
 ## Lisans
 
