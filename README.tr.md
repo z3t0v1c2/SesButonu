@@ -71,7 +71,10 @@ Ayarlar `~/.config/sesbutonu/ayarlar.json` dosyasında saklanır.
 | "Klavye cihazlarına erişilemiyor" uyarısı / tuş atanmıyor | `bash setup.sh` çalıştır (veya `sudo usermod -aG input $USER`) ve **oturumu kapatıp aç**; `groups` çıktısında `input` olmalı |
 | Ses çıkmıyor | `sudo apt install mpv` |
 | Tuş atarken hiçbir şey olmuyor | Üstteki `input` grubu adımını yaptığından emin ol |
+---
+![imagetr.png…]()
 
+---
 ## Lisans
 
 MIT - bkz. [LICENSE](LICENSE)
