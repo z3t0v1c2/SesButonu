@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SesButonu
+Comment=Tuşa basınca seçtiğin sesi çal
+Exec=sesbutonu
+Icon=audio-x-generic
+Categories=AudioVideo;Audio;
+Terminal=false

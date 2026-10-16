@@ -1,0 +1,24 @@
+# Maintainer: Adın Soyadın <mail@ornek.com>
+pkgname=sesbutonu
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Ses dosyalarına tuş atayıp tuşa basınca çalan GUI aracı"
+arch=('any')
+url="https://github.com/KULLANICI_ADIN/sesbutonu"
+license=('MIT')
+depends=('python' 'python-evdev' 'pyside6' 'mpv')
+makedepends=('git' 'python-build' 'python-installer' 'python-setuptools' 'python-wheel')
+source=("git+$url.git")
+sha256sums=('SKIP')
+
+build() {
+  cd "$pkgname"
+  python -m build --wheel --no-isolation
+}
+
+package() {
+  cd "$pkgname"
+  python -m installer --destdir="$pkgdir" dist/*.whl
+  install -Dm644 sesbutonu.desktop "$pkgdir/usr/share/applications/sesbutonu.desktop"
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
