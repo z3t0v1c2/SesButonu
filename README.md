@@ -61,8 +61,7 @@ Start hidden in the tray: `sesbutonu --gizli`
 | No sound | Install `mpv` |
 | No tray icon on GNOME | Enable the AppIndicator extension (setup.sh does this; re-login) |
 ---
-<img width="680" height="524" alt="Screenshot_20261016_222452" src="https://github.com/user-attachments/assets/554e67e4-3693-444b-b78e-89d3ae2c9dcf" />
-
+<img width="671" height="514" alt="test2" src="https://github.com/user-attachments/assets/c2ee9d7a-f722-4175-a131-7b3d319296fc" />
 ---
 
 ## License
