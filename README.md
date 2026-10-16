@@ -60,6 +60,10 @@ Start hidden in the tray: `sesbutonu --gizli`
 | "Cannot access keyboard devices" / keys can't be assigned | Run `bash setup.sh` (or `sudo usermod -aG input $USER`) and **log out and back in**; `groups` must list `input` |
 | No sound | Install `mpv` |
 | No tray icon on GNOME | Enable the AppIndicator extension (setup.sh does this; re-login) |
+---
+<img width="680" height="524" alt="Screenshot_20261016_222452" src="https://github.com/user-attachments/assets/554e67e4-3693-444b-b78e-89d3ae2c9dcf" />
+
+---
 
 ## License
 
