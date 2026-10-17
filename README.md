@@ -15,7 +15,7 @@ A small Linux app that plays a sound of your choice when you press a key or key 
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sesbutonu.git
+git clone https://github.com/z3t0v1c2/sesbutonu.git
 cd sesbutonu
 bash setup.sh
 ```
