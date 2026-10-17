@@ -13,7 +13,7 @@ Ses dosyalarına tuş (veya tuş kombinasyonu) atayıp, o tuşa basınca sesi ç
 ## Kurulum
 
 ```bash
-git clone https://github.com/KULLANICI_ADIN/sesbutonu.git
+git clone https://github.com/z3t0v1c2/sesbutonu.git
 cd sesbutonu
 bash setup.sh
 ```
